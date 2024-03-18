@@ -4,7 +4,7 @@ import { HomeIcon, ContactsIcon, EditIcon, GridIcon } from "@bitcoin-design/bitc
 function Nav() {
   return (
     <nav className="navContainer">
-      <div className="navBg">
+      <div className="navBar">
         <ul>
           <li>
             <Link href="/" className="home">

@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: $color-primary;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+li {
+    margin: 15px;
+}
+
+.navContainer {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.navBar {
+    position: fixed;
+    top: 90%;
+    /* Posiciona o menu a 50% da altura da janela */
+    left: 50%;
+    /* Posiciona o menu a 50% da largura da janela */
+    transform: translate(-50%, -50%);
+    /* Centraliza vertical e horizontalmente */
+    background-color: rgba(49, 49, 49, 0.5);
+    /* Cor com transparência */
+    backdrop-filter: blur(10px);
+    /* Aplica o desfoque */
+    padding: 5px 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
+}
+
+.navBar span {
+    display: none;
+    justify-content: center;
+}
